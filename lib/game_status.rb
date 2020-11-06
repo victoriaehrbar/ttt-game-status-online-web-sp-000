@@ -46,5 +46,5 @@ end
 def winner(board)
   combo = won?(board)
   position_1 = combo[0]
-  element_1 = board[0]
+  element_1 = board[posting_1]
 end
