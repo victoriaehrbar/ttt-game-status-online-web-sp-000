@@ -44,8 +44,10 @@ def over?(board)
 end
 
 def winner(board)
-  combo = won?(board)
+  if combo = won?(board)
   position_1 = combo[0]
   element_1 = board[position_1]
-nil
+end
+else nil
+end
 end
